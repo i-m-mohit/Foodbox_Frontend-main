@@ -19,7 +19,7 @@ node(){
     }
 
     stage('Package Build') {
-        sh "tar -zcvf bundle.tar.gz dist/foodboxfrontend/"
+        sh "tar -zcvf bundle.tar.gz dist/foodBox/"
     }
 
     stage('Artifacts Creation') {
